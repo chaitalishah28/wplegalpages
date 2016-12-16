@@ -13,7 +13,7 @@ $privacy=__('<h2>Privacy Policy</h2><p>Welcome to [Domain] (the "Site").We under
 <div style="width:1000px;float:left;">
 	<h1>WP Legal Pages</h1>
 	<div style="line-height: 2.4em;">
-	<a href="https://club.wpeka.com/product/wplegalpages/" target="_blank">
+	<a href="https://club.wpeka.com/product/wplegalpages/?utm_source=legalpages%20lite%20banner&utm_campaign=legal%20pages%20lite%20banner&utm_medium=banner" target="_blank">
 	<img alt="Upgrade to Pro" src="<?php echo WP_PLUGIN_URL.'/wplegalpages/admin/images/upgrade-to-pro.jpg'; ?>">
 	</a>
 	</div>
