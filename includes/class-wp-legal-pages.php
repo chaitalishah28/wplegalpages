@@ -160,7 +160,7 @@ $this->plugin_url	= plugin_dir_path( dirname( __FILE__ ) );
 
                 $plugin_admin = new WP_Legal_Pages_Admin( $this->get_plugin_name(), $this->get_version() );
                 $this->loader->add_action( 'admin_menu', $plugin_admin, 'admin_menu' );
-		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
+								$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
 
 	}
 
@@ -174,11 +174,10 @@ $this->plugin_url	= plugin_dir_path( dirname( __FILE__ ) );
 	private function define_public_hooks() {
 
 		$plugin_public = new WP_Legal_Pages_Public( $this->get_plugin_name(), $this->get_version() );
+				if(isset($lp_general['generate']) && $lp_general['generate'] == "1"){
+						$this->loader->add_filter( 'the_content', $plugin_public, 'wplegal_post_generate' );
+	}
 
-		$this->loader->add_filter( 'the_content', $plugin_public, 'lpShortcode' );
-		//$this->loader->add_filter( 'the_content', $plugin_public, 'wplegal_post_generate' );
-
-		$this->loader->add_filter( 'the_excerpt', $plugin_public, 'lpShortcode' );
 		add_action('wp_enqueue_scripts', array($this,'enqueue_frontend_script'));
 
 	   add_action('wp_footer', array($this,'wp_legalpages_show_eu_cookie_message'));
