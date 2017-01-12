@@ -21,34 +21,35 @@ Pages included:
 <li>DMCA Policy</li>
 <li>EU Cookie Policy</li>
 </ul>
-We have a <a href="https://club.wpeka.com/product/wplegalpages/">PRO version</a> of this plugin. It includes 22 legal page templates required by different sites.
+We have a <a href="https://club.wpeka.com/product/wplegalpages/">PRO version</a> of this plugin. It includes 23 legal page templates required by different sites.
 
 
-<h4>List of all the 22 templates included with PRO version : </h4>
+<h4>List of all the 23 templates included with PRO version : </h4>
 
 <ol>
   <li>California Privacy Rights <strong>(NEW)!!</strong></li>
 	<li>Digital Goods Refund Policy template <strong>(NEW)!!</strong></li>
 	<li>COPPA - Children's Online Privacy Policy template <strong>(NEW)!!</strong></li>
  	<li>Terms of use <strong>(forced agreement - don't allow your users to proceed without agreeing to your terms)</strong></li>
- 	<li>Linking policy template</li>
- 	<li>External links policy template</li>
- 	<li>Terms and conditions template</li>
- 	<li>Refund policy template</li>
- 	<li>Affiliate disclosure template</li>
- 	<li>Privacy Policy template</li>
- 	<li>Affiliate agreement template</li>
- 	<li>FB privacy policy template</li>
- 	<li>Earnings Disclaimer template</li>
- 	<li>Antispam template</li>
- 	<li>Double dart cookie template</li>
- 	<li>Disclaimer template</li>
- 	<li>FTC statement template</li>
- 	<li>Medical disclaimer template</li>
- 	<li>Testimonials disclosure template</li>
- 	<li>Amazon affiliate template</li>
- 	<li>DMCA policy template</li>
-  <li>Cookie policy template</li>
+ 	<li>Linking Policy</li>
+ 	<li>External Links Policy </li>
+ 	<li>Terms and Conditions</li>
+ 	<li>Refund Policy</li>
+ 	<li>Affiliate Disclosure</li>
+ 	<li>Privacy Policy</li>
+ 	<li>Affiliate Agreement</li>
+ 	<li>Facebook Privacy Policy</li>
+ 	<li>Earnings Disclaimer</li>
+ 	<li>Antispam</li>
+ 	<li>Double DART Cookies</li>
+ 	<li>Disclaimer Template</li>
+ 	<li>FTC Statement Template</li>
+ 	<li>Medical Disclaimer Template</li>
+ 	<li>Testimonials Disclosure - As per FTC guidelines</li>
+ 	<li>Amazon Affiliate Disclosure Template</li>
+ 	<li>DMCA Policy Template</li>
+  	<li>Cookie Policy Template</li>
+	<li>Newsletter: Subscription and Disclaimer Template</li>
 </ol>
 
 <h3>Features included: </h3>
@@ -72,7 +73,7 @@ For advanced usage of creating unlimited templates, advanced flexibility, ready 
 Few of the Key Features: 1. Pre-built Legal Templates 2. Easy To Edit Pages 3. Powerful & Simple WP Plugin
 
 = Features of WP Legal Pages Pro =
-1. Total number of 22 templates are available
+1. Total number of 23 templates are available
 2. Supports widget
 3. <a href="https://club.wpeka.com/product/wplegalpages/">WP Legal Pages Pro </a> is also available as part of <a href="https://club.wpeka.com/">WPEKa WordPress Plugin Club</a>
 
