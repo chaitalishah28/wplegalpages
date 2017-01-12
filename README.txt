@@ -6,7 +6,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: Legal Pages, Business Law, law,lawyer, legal, Digital Millennium Copyright Act, DMCA, disclaimer, Google, Linking policy, External links policy, Terms and conditions, Refund policy, Affiliate disclosure, Privacy Policy, Affiliate agreement, FB privacy policy, Earnings Disclaimer, Antispam template, Double dart cookie, Disclaimer, FTC statement, Medical disclaimer, Testimonials disclosure, Amazon affiliate, Legal Template, About us, Terms of use, EU cookies, COPPA policy
 Requires at least: 3.1+
 Tested up to: 4.7
-Stable tag: 1.5.9
+Stable tag: 1.5.8
 
 WP Legal Pages is a simple 1 click legal page management plugin. You can quickly add in legal pages to your WordPress sites.
 
@@ -31,24 +31,24 @@ We have a <a href="https://club.wpeka.com/product/wplegalpages/">PRO version</a>
 	<li>Digital Goods Refund Policy template <strong>(NEW)!!</strong></li>
 	<li>COPPA - Children's Online Privacy Policy template <strong>(NEW)!!</strong></li>
  	<li>Terms of use <strong>(forced agreement - don't allow your users to proceed without agreeing to your terms)</strong></li>
- 	<li>Linking policy template</li>
- 	<li>External links policy template</li>
- 	<li>Terms and conditions template</li>
- 	<li>Refund policy template</li>
- 	<li>Affiliate disclosure template</li>
- 	<li>Privacy Policy template</li>
- 	<li>Affiliate agreement template</li>
- 	<li>FB privacy policy template</li>
- 	<li>Earnings Disclaimer template</li>
- 	<li>Antispam template</li>
- 	<li>Double dart cookie template</li>
- 	<li>Disclaimer template</li>
- 	<li>FTC statement template</li>
- 	<li>Medical disclaimer template</li>
- 	<li>Testimonials disclosure template</li>
- 	<li>Amazon affiliate template</li>
- 	<li>DMCA policy template</li>
-  	<li>Cookie policy template</li>
+ 	<li>Linking Policy</li>
+ 	<li>External Links Policy </li>
+ 	<li>Terms and Conditions</li>
+ 	<li>Refund Policy</li>
+ 	<li>Affiliate Disclosure</li>
+ 	<li>Privacy Policy</li>
+ 	<li>Affiliate Agreement</li>
+ 	<li>Facebook Privacy Policy</li>
+ 	<li>Earnings Disclaimer</li>
+ 	<li>Antispam</li>
+ 	<li>Double DART Cookies</li>
+ 	<li>Disclaimer Template</li>
+ 	<li>FTC Statement Template</li>
+ 	<li>Medical Disclaimer Template</li>
+ 	<li>Testimonials Disclosure - As per FTC guidelines</li>
+ 	<li>Amazon Affiliate Disclosure Template</li>
+ 	<li>DMCA Policy Template</li>
+  	<li>Cookie Policy Template</li>
 	<li>Newsletter: Subscription and Disclaimer Template</li>
 </ol>
 
@@ -110,9 +110,6 @@ Yes. The templates are created in accordance with the US website laws and by con
 This plugin does not support multisite network. You will have to install it on each site separately.
 
 == Upgrade Notice ==
-=1.5.9 =
-Added Content in Readme File.
-
 =1.5.8 =
 Fix give credit option issue.
 
