@@ -4,7 +4,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 require_once( 'class-wp-legal-pages-admin.php' );
 global $wpdb;
 $lpObj = new WP_Legal_Pages();
-//$lpObj->lp_enqueue_editor();
+
 
 if(!empty($_POST) && isset($_POST['lp-submit'])){
 	if(isset($_POST['lp_eu_status']))
