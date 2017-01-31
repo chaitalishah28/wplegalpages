@@ -2,8 +2,6 @@
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
-//$lpObj = new legalPages();
-//$lpObj->lp_enqueue_editor();
 
 $page = isset($_REQUEST['page'])?$_REQUEST['page']:'';
 $nonce = isset($_REQUEST['_wpnonce'])? $_REQUEST['_wpnonce']:'';

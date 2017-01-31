@@ -33,7 +33,6 @@ class WP_Legal_Pages_Activator {
 	public static function activate() {
             global $wpdb;
             $legal_pages = new WP_Legal_Pages();
-            //echo dirname(__FILE__) . '/templates/Terms.php';exit;
             $privacy = file_get_contents(plugin_dir_path( dirname( __FILE__ ) ) . 'templates/privacy.html');
             $dmca = file_get_contents(plugin_dir_path( dirname( __FILE__ ) ). '/templates/dmca.html');
 
@@ -45,12 +44,12 @@ class WP_Legal_Pages_Activator {
             $message_body="This website has updated its privacy policy in compliance with EU Cookie legislation. Please read this to review the updates about which cookies we use and what information we collect on our site. By continuing to use this site, you are agreeing to our updated privacy policy.";
             add_option('lp_eu_cookie_message',htmlentities($message_body));
             add_option('lp_eu_cookie_enable','OFF');
-            add_option('lp_eu_box_color', '#000000'); 
+            add_option('lp_eu_box_color', '#000000');
  	        add_option('lp_eu_button_color', '#e3e3e3');
             add_option('lp_eu_button_text_color','#333333');
-            add_option('lp_eu_text_color', '#FFFFFF'); 
-            add_option('lp_eu_link_color', '#8f0410'); 
- 	      add_option('lp_eu_text_size', '12'); 
+            add_option('lp_eu_text_color', '#FFFFFF');
+            add_option('lp_eu_link_color', '#8f0410');
+ 	      add_option('lp_eu_text_size', '12');
 
             $sql = "CREATE TABLE IF NOT EXISTS `$legal_pages->tablename` (
                               `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -66,8 +65,8 @@ class WP_Legal_Pages_Activator {
                               `content` longtext NOT NULL,
                               PRIMARY KEY (`id`)
                             ) ENGINE=MyISAM;";
-            
-            //todo: Use concept of DB Delta
+
+          
             $wpdb->query($sql);
             $wpdb->query($sqlpopup);
             $privacy_policy_count = $wpdb->get_var( "SELECT COUNT(*) FROM `$legal_pages->tablename` WHERE title='Privacy Policy'" );

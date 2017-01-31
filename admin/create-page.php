@@ -3,7 +3,6 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 $lpObj = new WP_Legal_Pages();
-//$lpObj->lp_enqueue_editor();
 $baseurl=esc_url(get_bloginfo('url'));
 $page = isset($_REQUEST['page'])?sanitize_text_field($_REQUEST['page']):'';
 $lptype = isset($_REQUEST['lp-type'])?sanitize_text_field($_REQUEST['lp-type']):'';
