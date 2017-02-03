@@ -4,8 +4,6 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 require_once( 'class-wp-legal-pages-admin.php' );
 global $wpdb;
 $lpObj = new WP_Legal_Pages();
-
-
 if(!empty($_POST) && isset($_POST['lp-submit'])){
 	if(isset($_POST['lp_eu_status']))
 	update_option('lp_eu_cookie_enable',sanitize_text_field($_POST['lp_eu_status']));

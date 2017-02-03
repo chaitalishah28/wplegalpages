@@ -66,7 +66,6 @@ class WP_Legal_Pages_Activator {
                               PRIMARY KEY (`id`)
                             ) ENGINE=MyISAM;";
 
-          
             $wpdb->query($sql);
             $wpdb->query($sqlpopup);
             $privacy_policy_count = $wpdb->get_var( "SELECT COUNT(*) FROM `$legal_pages->tablename` WHERE title='Privacy Policy'" );

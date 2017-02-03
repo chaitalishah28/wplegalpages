@@ -2,7 +2,6 @@
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
-
 $page = isset($_REQUEST['page'])?$_REQUEST['page']:'';
 $nonce = isset($_REQUEST['_wpnonce'])? $_REQUEST['_wpnonce']:'';
 

@@ -88,7 +88,6 @@ class WP_Legal_Pages_Admin {
 		 */
 		 	if( (isset( $_GET['page'] )) && (($_GET['page'] == 'legal-pages')||($_GET['page'] == 'lp-show-pages')||($_GET['page'] == 'lp-create-page')||($_GET['page'] == 'lp-eu-cookies'))){
 		wp_enqueue_script('tooltip-js', $this->plugin_url. '/wp-content/plugins/wplegalpages/admin/js/tooltip.js');
-	
 }
 	}
 

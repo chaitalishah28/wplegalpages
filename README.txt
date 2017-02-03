@@ -110,9 +110,10 @@ Yes. The templates are created in accordance with the US website laws and by con
 This plugin does not support multisite network. You will have to install it on each site separately.
 
 == Upgrade Notice ==
+
 =1.5.9 =
 Made Compatible with WordPress 4.7.1
-Code Cleanup  
+Code Cleanup
 
 =1.5.8 =
 Fix give credit option issue.

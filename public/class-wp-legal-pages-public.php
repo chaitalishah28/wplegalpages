@@ -75,8 +75,6 @@ class WP_Legal_Pages_Public {
 		 * class.
 		 */
 
-
-
 	}
 
 	/**
@@ -97,8 +95,6 @@ class WP_Legal_Pages_Public {
 		 * between the defined hooks and the functions defined in this
 		 * class.
 		 */
-
-
 
 	}
 
